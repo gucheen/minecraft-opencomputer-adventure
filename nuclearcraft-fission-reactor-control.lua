@@ -1,3 +1,10 @@
+--[[ 
+This script will watch your NuclearCraft fission reactor's energy storage level.
+When it is less than 20%, activate it.
+When it is more than 85%, deactivate it.
+Save your fuel and keep high efficiency.
+]]
+
 local component = require('component')
 local event = require('event')
 local reactor = component.nc_fission_reactor
